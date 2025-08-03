@@ -48,6 +48,10 @@ Upload a document to be processed and embedded.
 Request
 - Form Data: *file* (the document)
 
+<img width="800" height="300" alt="image" src="https://github.com/user-attachments/assets/d230847c-d5da-48a5-991f-15898df0ae44" />
+
+
+
 Response
 ```json
 
@@ -57,6 +61,11 @@ Response
 }
 
 ```
+
+<img width="800" height="300" alt="image" src="https://github.com/user-attachments/assets/6c0f2906-c3d0-4d6e-b5c4-614e56dd63ad" />
+
+
+
 /query (POST)
 Ask a question related to the uploaded document content.
 
@@ -77,6 +86,15 @@ Response
   "answer": "The document discusses..."
 }
 ```
+Demo Result from my Resume:
+
+Using Postmen:
+
+<img width="800" height="300" alt="image" src="https://github.com/user-attachments/assets/093c7346-148c-4c08-811a-028f273ce310" />
+
+Using CURL:
+<img width="800" height="76" alt="image" src="https://github.com/user-attachments/assets/c5e26f61-292c-4c33-bf50-6a5bc77e631c" />
+
 
 
 ▶️ Running Locally
