@@ -2,7 +2,7 @@
 
 This is a simple FastAPI-based project for building a Document Question Answering (QA) system. 
 
-**> For Better Result Use CURL or Postmen**
+** For Better Result Use CURL or Postmen**
 
 It allows users to:
 
@@ -49,7 +49,7 @@ pip install -r requirements.txt
 
 **📤 Endpoints**
 
-##### **1. /upload (POST)**
+### ** /upload (POST)**
 Upload a document to be processed and embedded.
 
 Request
@@ -75,7 +75,7 @@ Response
 
 
 
-##### **2. /query (POST)**
+### ** /query (POST)**
 
 Ask a question related to the uploaded document content.
 
@@ -110,7 +110,7 @@ Using CURL:
 
 
 
-#####▶️ Running Locally
+### ▶️ Running Locally
 Start the server using Uvicorn:
 
 ```python
@@ -119,7 +119,7 @@ uvicorn main:app --reload
 Then open: http://localhost:8000/docs
 
 
-#####🐳 Running with Docker (It will Take some time depending on Internet Speed to Build)
+### 🐳 Running with Docker (It will Take some time depending on Internet Speed to Build)
 
 
 Step 1: Build the Docker image 
@@ -137,7 +137,7 @@ docker run -d -p 8000:8000 --name doc-qa-api fastapi-doc-qa
 Now the API will be available at: http://localhost:8000/docs
 
 
-#####🐳 Running with Docker Compose
+### 🐳 Running with Docker Compose
 
 
 ```console
