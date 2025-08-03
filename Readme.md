@@ -2,6 +2,7 @@
 
 This is a simple FastAPI-based project for building a Document Question Answering (QA) system. 
 
+**> For Better Result Use CURL or Postmen**
 
 It allows users to:
 
@@ -84,11 +85,11 @@ Start the server using Uvicorn:
 ```python
 uvicorn main:app --reload
 ```
-Then open: http://localhost:8000
+Then open: http://localhost:8000/docs
 
 
-🐳 Running with Docker
-Step 1: Build the Docker image
+🐳 Running with Docker (It will Take some time depending on Internet Speed to Build)
+Step 1: Build the Docker image 
 
 ```console
 docker build -t fastapi-doc-qa .
@@ -100,6 +101,28 @@ Step 2: Run the container
 docker run -d -p 8000:8000 --name doc-qa-api fastapi-doc-qa
 ```
 
+Now the API will be available at: http://localhost:8000/docs
 
-Now the API will be available at: http://localhost:8000
+
+🐳 Running with Docker Compose
+
+```console
+docker compose up --build
+```
+Once built, open in browser:
+
+```console
+http://localhost:8000/docs
+```
+You can now:
+
+- Upload a .pdf, .docx, .jpg, or .txt
+
+- Ask a question
+
+- Get answers from flan-t5-base
+
+
+
+
 
