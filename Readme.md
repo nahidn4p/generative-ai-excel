@@ -49,7 +49,7 @@ pip install -r requirements.txt
 
 **📤 Endpoints**
 
-#####**1. /upload (POST)**
+##### **1. /upload (POST)**
 Upload a document to be processed and embedded.
 
 Request
@@ -75,7 +75,7 @@ Response
 
 
 
-#####**2. /query (POST)**
+##### **2. /query (POST)**
 
 Ask a question related to the uploaded document content.
 
