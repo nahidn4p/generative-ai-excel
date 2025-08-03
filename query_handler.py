@@ -8,6 +8,5 @@ async def generate_answer(question):
     prompt = f"Context: {context}\n\nQuestion: {question}\nAnswer:"
     result = qa_pipeline(prompt, max_length=200, do_sample=False)
     return {
-        "answer": result[0]['generated_text'],
-        "context": context
+        "answer": result[0]['generated_text']
     }

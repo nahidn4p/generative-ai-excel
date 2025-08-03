@@ -8,3 +8,4 @@ sentence-transformers
 faiss-cpu
 transformers
 torch
+python-multipart
