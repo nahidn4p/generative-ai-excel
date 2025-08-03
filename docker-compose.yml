@@ -1,0 +1,10 @@
+services:
+  rag-flan-api:
+    build: .
+    container_name: excel_rag-flan-api
+    image: excel_rag-flan-api:latest
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/app
+    restart: unless-stopped
