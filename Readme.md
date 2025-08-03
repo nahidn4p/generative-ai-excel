@@ -86,10 +86,13 @@ JSON Body:
 
 ```json
 {
-  "question": "What is the document about?"
+  "question": "What is the product name ?"
 }
 
 ```
+
+<img width="800" height="350" alt="image" src="https://github.com/user-attachments/assets/3ebe14a7-df55-4ff1-b279-d12c038ca6d1" />
+
 
 Response
 
@@ -98,6 +101,9 @@ Response
   "answer": "The document discusses..."
 }
 ```
+
+<img width="800" height="335" alt="image" src="https://github.com/user-attachments/assets/36d7f749-f925-4f5d-8ef2-4c2451e02363" />
+
 Demo Result from my Resume:
 
 Using Postmen:
