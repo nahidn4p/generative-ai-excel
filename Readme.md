@@ -33,6 +33,8 @@ pip install -r requirements.txt
 
 
 📦 Project Structure
+
+
 ├── main.py               # FastAPI application
 
 ├── document_loader.py   # Loads and chunks uploaded documents
