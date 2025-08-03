@@ -34,15 +34,22 @@ pip install -r requirements.txt
 
 📦 Project Structure
 ├── main.py               # FastAPI application
+
 ├── document_loader.py   # Loads and chunks uploaded documents
+
 ├── embed_store.py       # Embeds and stores the document chunks
+
 ├── query_handler.py     # Handles question answering using context
+
 ├── requirements.txt
+
 ├── Dockerfile
+
 └── README.md
 
-📤 Endpoints
-/upload (POST)
+**📤 Endpoints**
+
+**/upload (POST)**
 Upload a document to be processed and embedded.
 
 Request
@@ -66,7 +73,10 @@ Response
 
 
 
-/query (POST)
+
+
+**/query (POST)**
+
 Ask a question related to the uploaded document content.
 
 Request
@@ -90,10 +100,13 @@ Demo Result from my Resume:
 
 Using Postmen:
 
+
 <img width="800" height="300" alt="image" src="https://github.com/user-attachments/assets/093c7346-148c-4c08-811a-028f273ce310" />
 
 Using CURL:
+
 <img width="800" height="76" alt="image" src="https://github.com/user-attachments/assets/c5e26f61-292c-4c33-bf50-6a5bc77e631c" />
+
 
 
 
