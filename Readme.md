@@ -49,7 +49,7 @@ pip install -r requirements.txt
 
 **📤 Endpoints**
 
-**/upload (POST)**
+#####**1. /upload (POST)**
 Upload a document to be processed and embedded.
 
 Request
@@ -75,7 +75,7 @@ Response
 
 
 
-**/query (POST)**
+#####**2. /query (POST)**
 
 Ask a question related to the uploaded document content.
 
@@ -110,7 +110,7 @@ Using CURL:
 
 
 
-▶️ Running Locally
+#####▶️ Running Locally
 Start the server using Uvicorn:
 
 ```python
@@ -119,7 +119,9 @@ uvicorn main:app --reload
 Then open: http://localhost:8000/docs
 
 
-🐳 Running with Docker (It will Take some time depending on Internet Speed to Build)
+#####🐳 Running with Docker (It will Take some time depending on Internet Speed to Build)
+
+
 Step 1: Build the Docker image 
 
 ```console
@@ -135,7 +137,8 @@ docker run -d -p 8000:8000 --name doc-qa-api fastapi-doc-qa
 Now the API will be available at: http://localhost:8000/docs
 
 
-🐳 Running with Docker Compose
+#####🐳 Running with Docker Compose
+
 
 ```console
 docker compose up --build
