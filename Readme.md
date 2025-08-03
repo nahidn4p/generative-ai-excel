@@ -81,7 +81,7 @@ Response
 
 Ask a question related to the uploaded document content.
 
-Request
+Request (Using A product PDF)
 JSON Body:
 
 ```json
@@ -94,11 +94,11 @@ JSON Body:
 <img width="800" height="350" alt="image" src="https://github.com/user-attachments/assets/3ebe14a7-df55-4ff1-b279-d12c038ca6d1" />
 
 
-Response
+Response (Product Model)
 
 ```json
 {
-  "answer": "The document discusses..."
+  "answer": "T4343M 17" 
 }
 ```
 
